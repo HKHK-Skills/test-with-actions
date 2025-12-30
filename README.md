@@ -7,9 +7,9 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
-# Test with Actions
+# Testimine Actionsiga
 
-_Create workflows that enable you to use Continuous Integration (CI) for your projects._
+_Loo töövoogusid, mis võimaldavad kasutada pidevat integratsiooni (CI) sinu projektides._
 
 </header>
 
@@ -19,45 +19,45 @@ _Create workflows that enable you to use Continuous Integration (CI) for your pr
   and tell the learner why they should take the course.
 -->
 
-## Welcome
+## Tere tulemast
 
-[Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) can help you stick to your team’s quality standards by running tests and reporting the results on GitHub. CI tools run builds and tests, triggered by commits. The results post back to GitHub in the pull request. The goal is fewer issues in `main` and faster feedback as you work.
+[Pidev integratsioon](https://en.wikipedia.org/wiki/Continuous_integration) aitab sul järgida oma meeskonna kvaliteedistandardeid, käivitades teste ja raporteerides tulemusi GitHubis. CI tööriistad käivitavad ehitusi ja teste, mida käivitavad commit'id. Tulemused postitatakse tagasi GitHubi pull request'i. Eesmärk on vähem probleeme `main` harus ja kiirem tagasiside töötamise ajal.
 
-- **Who is this for**: Developers, DevOps Engineers, new GitHub users, students, teams.
-- **What you'll learn**: What continuous integration is, how to use GitHub Actions for CI, how to create a workflow that runs tests and produces test reports.
-- **What you'll build**: We'll use [remark-lint](https://github.com/remarkjs/remark-lint) to check the consistency of Markdown files.
-- **Prerequisites**: We assume you've completed [Hello GitHub Actions](https://github.com/skills/hello-github-actions) first.
-- **How long**: This course takes less than two hours to complete.
+- **Kellele see on**: Arendajatele, DevOps inseneridele, uutele GitHubi kasutajatele, õpilastele, meeskondadele.
+- **Mida õpid**: Mis on pidev integratsioon, kuidas kasutada GitHub Actionsi CI jaoks, kuidas luua töövoog, mis käivitab teste ja toodab testiraporteid.
+- **Mida ehitad**: Kasutame [remark-lint](https://github.com/remarkjs/remark-lint)'i Markdown-failide järjepidevuse kontrollimiseks.
+- **Eeltingimused**: Eeldame, et oled esmalt läbinud [Tere GitHub Actions](https://github.com/skills/hello-github-actions) kursuse.
+- **Kestus**: Selle kursuse saab lõpetada vähem kui kahe tunniga.
 
-In this course, you will:
+Sellel kursusel sa:
 
-1. Add a test workflow
-2. Fix the test
-3. Upload a test report
-4. Add branch protections
-5. Merge your pull request
+1. Lisad testi töövoo
+2. Parandad testi
+3. Laadid üles testiraporti
+4. Lisad haru kaitsed
+5. Ühendad oma pull request'i
 
-### How to start this course
+### Kuidas seda kursust alustada
 
 <!-- For start course, run in JavaScript:
 'https://github.com/new?' + new URLSearchParams({
-  template_owner: 'skills',
+  template_owner: 'HKHK-Skills',
   template_name: 'test-with-actions',
   owner: '@me',
   name: 'skills-test-with-actions',
-  description: 'My clone repository',
+  description: 'Minu kursuse repo',
   visibility: 'public',
 }).toString()
 -->
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=test-with-actions&owner=%40me&name=skills-test-with-actions&description=My+clone+repository&visibility=public)
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=HKHK-Skills&template_name=test-with-actions&owner=%40me&name=skills-test-with-actions&description=Minu+kursuse+repo&visibility=public)
 
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+1. Tee paremklikk nupul **Start course** ja ava link uuel vahekaardil.
+2. Uuel vahekaardil täituvad enamik välju automaatselt.
+   - Omanikuks (owner) vali oma isiklik konto või organisatsioon.
+   - Soovitame luua avaliku (public) repositooriumi, kuna privaatsed repod [kasutavad Actions minuteid](https://docs.github.com/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
+   - Keri alla ja kliki vormi allosas nuppu **Create repository**.
+3. Pärast uue repositooriumi loomist oota umbes 20 sekundit, seejärel värskenda lehte. Järgi samm-sammult juhiseid uue repositooriumi README-s.
 
 <footer>
 
@@ -68,8 +68,8 @@ In this course, you will:
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/test-with-actions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Abi saamiseks: [Postita meie arutelufoorumis](https://github.com/orgs/skills/discussions/categories/test-with-actions) &bull; [Vaata GitHubi staatuslehte](https://www.githubstatus.com/)
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2023 GitHub &bull; [Käitumisjuhend](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT litsents](https://gh.io/mit)
 
 </footer>

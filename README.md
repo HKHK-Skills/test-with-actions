@@ -54,7 +54,7 @@ Sellel kursusel sa:
 
 1. Tee paremklikk nupul **Start course** ja ava link uuel vahekaardil.
 2. Uuel vahekaardil täituvad enamik välju automaatselt.
-   - Omanikuks (owner) vali oma isiklik konto või organisatsioon.
+   - Omanikuks (owner) vali **oma organisatsioon** (mitte isiklik konto!).
    - Soovitame luua avaliku (public) repositooriumi, kuna privaatsed repod [kasutavad Actions minuteid](https://docs.github.com/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
    - Keri alla ja kliki vormi allosas nuppu **Create repository**.
 3. Pärast uue repositooriumi loomist oota umbes 20 sekundit, seejärel värskenda lehte. Järgi samm-sammult juhiseid uue repositooriumi README-s.
@@ -68,7 +68,7 @@ Sellel kursusel sa:
 
 ---
 
-Abi saamiseks: [Postita meie arutelufoorumis](https://github.com/orgs/skills/discussions/categories/test-with-actions) &bull; [Vaata GitHubi staatuslehte](https://www.githubstatus.com/)
+Abi saamiseks: [HKHK-Skills Discussions](https://github.com/orgs/HKHK-Skills/discussions)
 
 &copy; 2023 GitHub &bull; [Käitumisjuhend](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT litsents](https://gh.io/mit)
 
